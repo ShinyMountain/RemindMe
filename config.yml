@@ -1,0 +1,13 @@
+carbon_copies_path: ./carbon_copies/
+queue_path: ./queue/
+timezone: Europe/Paris
+ip_bind: 127.0.0.1
+port_bind: 25
+error_msg: ./back.eml
+address_subject: remindme@example.com
+authorized_from:
+  - me@protonmail.com
+allowed_ips:
+  - 127.0.0.1/32
+log_outgoing: ./logs/outgoing.log
+log_ingoing: ./logs/ingoing.log
